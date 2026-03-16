@@ -10,7 +10,7 @@ from aiohttp import web
 
 from config import BOT_TOKEN, BOT_MODE, WEBHOOK_PATH, WEBHOOK_URL, PORT, HOST
 
-from handlers.handlers import register_handlers
+from handlers import register_handlers
 from handlers.admin import register_admin_handlers
 from utils.cleanup import cleanup_temp_directory
 
